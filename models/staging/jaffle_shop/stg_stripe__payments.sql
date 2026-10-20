@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from  `dbt-tutorial.stripe.payment`
+    select * from `dbt-tutorial.stripe.payment`
 ),
 
 renamed as (
