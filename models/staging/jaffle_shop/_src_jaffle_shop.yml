@@ -11,6 +11,16 @@ sources:
         error_after: {count: 1, period: day}
     tables:
       - name: customers
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
         config:
           freshness: null
       - name: orders
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
